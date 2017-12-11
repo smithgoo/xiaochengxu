@@ -11,21 +11,22 @@
     </swiper-item>
   </swiper>
 
+<block wx:for="{{post_key}}" wx:for-item="item" wx:for-index ="idx">
   <view class='post-content'>
     <view class='post-author-name'>
-      <image wx:if="{{false}}" class='post-author' src='{{image.post_img}}'></image>
-      <text class='post-name'>{{date}} {{title}}</text>
+      <image wx:if="{{false}}" class='post-author' src='{{item.post_img}}'></image>
+      <text class='post-name'>{{item.date}} {{idx}} {{title}}</text>
     </view>
     <text class='post-title'>{{title}}</text>
-    <image class='post-img' src='{{image.author_img}}'></image>
-    <text class='post-textcontent'>{{content}}</text>
+    <image class='post-img' src='{{item.author_img}}'></image>
+    <text class='post-textcontent'>{{item.content}}</text>
     <view class='post-like'>
-      <image class='post-like-img' src='{{image.author_img}}'></image>
-      <text class='post-like-font'>{{view_num}}</text>
-      <image class='post-like-img' src='{{image.author_img}}'></image>
-      <text class='post-like-font'>{{collect_num}}</text>
+      <image class='post-like-img' src='{{item.author_img}}'></image>
+      <text class='post-like-font'>{{item.view_num}}</text>
+      <image class='post-like-img' src='{{item.author_img}}'></image>
+      <text class='post-like-font'>{{item.collect_num}}</text>
     </view>
   </view>
-
+</block>
 
 </view>
