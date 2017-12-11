@@ -1,0 +1,99 @@
+<view>
+  <swiper indicator-dots="true" autoplay="true" interval="2000" circular="true">
+    <swiper-item>
+      <image src="/images/1.png"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/2.png"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/avater.png"></image>
+    </swiper-item>
+  </swiper>
+
+  <view class='post-content'>
+    <view class='post-author-name'>
+      <image class='post-author' src='/images/1.png'></image>
+      <text class='post-name'>  Nov 25 2016</text>
+    </view>
+    <text class='post-title'>正是虾肥蟹壮时</text>
+    <image class='post-img' src='/images/2.png'></image>
+    <text class='post-textcontent'>还时常记得出游溪亭，一玩就玩到日黑天暮，深深地沉醉，而忘记归路。一直玩到兴尽，回舟返途，却迷途进入藕花的深处。大家争着划呀，船儿抢着渡，惊起了满滩的鸥鹭。</text>
+    <view class='post-like'>
+      <image class='post-like-img' src='../../images/avater.png'></image>
+      <text class='post-like-font'>128</text>
+      <image class='post-like-img' src='../../images/avater.png'></image>
+      <text class='post-like-font'>007</text>
+    </view>
+  </view>
+
+    <view class='post-content'>
+    <view class='post-author-name'>
+      <image class='post-author' src='/images/1.png'></image>
+      <text class='post-name'>  Nov 25 2016</text>
+    </view>
+    <text class='post-title'>正是虾肥蟹壮时</text>
+    <image class='post-img' src='/images/2.png'></image>
+    <text class='post-textcontent'>还时常记得出游溪亭，一玩就玩到日黑天暮，深深地沉醉，而忘记归路。一直玩到兴尽，回舟返途，却迷途进入藕花的深处。大家争着划呀，船儿抢着渡，惊起了满滩的鸥鹭。</text>
+    <view class='post-like'>
+      <image class='post-like-img' src='../../images/avater.png'></image>
+      <text class='post-like-font'>128</text>
+      <image class='post-like-img' src='../../images/avater.png'></image>
+      <text class='post-like-font'>007</text>
+    </view>
+  </view>
+
+
+    <view class='post-content'>
+    <view class='post-author-name'>
+      <image class='post-author' src='/images/1.png'></image>
+      <text class='post-name'>  Nov 25 2016</text>
+    </view>
+    <text class='post-title'>正是虾肥蟹壮时</text>
+    <image class='post-img' src='/images/2.png'></image>
+    <text class='post-textcontent'>还时常记得出游溪亭，一玩就玩到日黑天暮，深深地沉醉，而忘记归路。一直玩到兴尽，回舟返途，却迷途进入藕花的深处。大家争着划呀，船儿抢着渡，惊起了满滩的鸥鹭。</text>
+    <view class='post-like'>
+      <image class='post-like-img' src='../../images/avater.png'></image>
+      <text class='post-like-font'>128</text>
+      <image class='post-like-img' src='../../images/avater.png'></image>
+      <text class='post-like-font'>007</text>
+    </view>
+  </view>
+
+
+
+    <view class='post-content'>
+    <view class='post-author-name'>
+      <image class='post-author' src='/images/1.png'></image>
+      <text class='post-name'>  Nov 25 2016</text>
+    </view>
+    <text class='post-title'>正是虾肥蟹壮时</text>
+    <image class='post-img' src='/images/2.png'></image>
+    <text class='post-textcontent'>还时常记得出游溪亭，一玩就玩到日黑天暮，深深地沉醉，而忘记归路。一直玩到兴尽，回舟返途，却迷途进入藕花的深处。大家争着划呀，船儿抢着渡，惊起了满滩的鸥鹭。</text>
+    <view class='post-like'>
+      <image class='post-like-img' src='../../images/avater.png'></image>
+      <text class='post-like-font'>128</text>
+      <image class='post-like-img' src='../../images/avater.png'></image>
+      <text class='post-like-font'>007</text>
+    </view>
+  </view>
+
+
+    <view class='post-content'>
+    <view class='post-author-name'>
+      <image class='post-author' src='/images/1.png'></image>
+      <text class='post-name'>  Nov 25 2016</text>
+    </view>
+    <text class='post-title'>正是虾肥蟹壮时</text>
+    <image class='post-img' src='/images/2.png'></image>
+    <text class='post-textcontent'>还时常记得出游溪亭，一玩就玩到日黑天暮，深深地沉醉，而忘记归路。一直玩到兴尽，回舟返途，却迷途进入藕花的深处。大家争着划呀，船儿抢着渡，惊起了满滩的鸥鹭。</text>
+    <view class='post-like'>
+      <image class='post-like-img' src='../../images/avater.png'></image>
+      <text class='post-like-font'>128</text>
+      <image class='post-like-img' src='../../images/avater.png'></image>
+      <text class='post-like-font'>007</text>
+    </view>
+  </view>
+
+
+</view>
