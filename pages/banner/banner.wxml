@@ -13,85 +13,17 @@
 
   <view class='post-content'>
     <view class='post-author-name'>
-      <image class='post-author' src='/images/1.png'></image>
-      <text class='post-name'>  Nov 25 2016</text>
+      <image wx:if="{{false}}" class='post-author' src='{{image.post_img}}'></image>
+      <text class='post-name'>{{date}} {{title}}</text>
     </view>
-    <text class='post-title'>正是虾肥蟹壮时</text>
-    <image class='post-img' src='/images/2.png'></image>
-    <text class='post-textcontent'>还时常记得出游溪亭，一玩就玩到日黑天暮，深深地沉醉，而忘记归路。一直玩到兴尽，回舟返途，却迷途进入藕花的深处。大家争着划呀，船儿抢着渡，惊起了满滩的鸥鹭。</text>
+    <text class='post-title'>{{title}}</text>
+    <image class='post-img' src='{{image.author_img}}'></image>
+    <text class='post-textcontent'>{{content}}</text>
     <view class='post-like'>
-      <image class='post-like-img' src='../../images/avater.png'></image>
-      <text class='post-like-font'>128</text>
-      <image class='post-like-img' src='../../images/avater.png'></image>
-      <text class='post-like-font'>007</text>
-    </view>
-  </view>
-
-    <view class='post-content'>
-    <view class='post-author-name'>
-      <image class='post-author' src='/images/1.png'></image>
-      <text class='post-name'>  Nov 25 2016</text>
-    </view>
-    <text class='post-title'>正是虾肥蟹壮时</text>
-    <image class='post-img' src='/images/2.png'></image>
-    <text class='post-textcontent'>还时常记得出游溪亭，一玩就玩到日黑天暮，深深地沉醉，而忘记归路。一直玩到兴尽，回舟返途，却迷途进入藕花的深处。大家争着划呀，船儿抢着渡，惊起了满滩的鸥鹭。</text>
-    <view class='post-like'>
-      <image class='post-like-img' src='../../images/avater.png'></image>
-      <text class='post-like-font'>128</text>
-      <image class='post-like-img' src='../../images/avater.png'></image>
-      <text class='post-like-font'>007</text>
-    </view>
-  </view>
-
-
-    <view class='post-content'>
-    <view class='post-author-name'>
-      <image class='post-author' src='/images/1.png'></image>
-      <text class='post-name'>  Nov 25 2016</text>
-    </view>
-    <text class='post-title'>正是虾肥蟹壮时</text>
-    <image class='post-img' src='/images/2.png'></image>
-    <text class='post-textcontent'>还时常记得出游溪亭，一玩就玩到日黑天暮，深深地沉醉，而忘记归路。一直玩到兴尽，回舟返途，却迷途进入藕花的深处。大家争着划呀，船儿抢着渡，惊起了满滩的鸥鹭。</text>
-    <view class='post-like'>
-      <image class='post-like-img' src='../../images/avater.png'></image>
-      <text class='post-like-font'>128</text>
-      <image class='post-like-img' src='../../images/avater.png'></image>
-      <text class='post-like-font'>007</text>
-    </view>
-  </view>
-
-
-
-    <view class='post-content'>
-    <view class='post-author-name'>
-      <image class='post-author' src='/images/1.png'></image>
-      <text class='post-name'>  Nov 25 2016</text>
-    </view>
-    <text class='post-title'>正是虾肥蟹壮时</text>
-    <image class='post-img' src='/images/2.png'></image>
-    <text class='post-textcontent'>还时常记得出游溪亭，一玩就玩到日黑天暮，深深地沉醉，而忘记归路。一直玩到兴尽，回舟返途，却迷途进入藕花的深处。大家争着划呀，船儿抢着渡，惊起了满滩的鸥鹭。</text>
-    <view class='post-like'>
-      <image class='post-like-img' src='../../images/avater.png'></image>
-      <text class='post-like-font'>128</text>
-      <image class='post-like-img' src='../../images/avater.png'></image>
-      <text class='post-like-font'>007</text>
-    </view>
-  </view>
-
-
-    <view class='post-content'>
-    <view class='post-author-name'>
-      <image class='post-author' src='/images/1.png'></image>
-      <text class='post-name'>  Nov 25 2016</text>
-    </view>
-    <text class='post-title'>正是虾肥蟹壮时</text>
-    <image class='post-img' src='/images/2.png'></image>
-    <text class='post-textcontent'>还时常记得出游溪亭，一玩就玩到日黑天暮，深深地沉醉，而忘记归路。一直玩到兴尽，回舟返途，却迷途进入藕花的深处。大家争着划呀，船儿抢着渡，惊起了满滩的鸥鹭。</text>
-    <view class='post-like'>
-      <image class='post-like-img' src='../../images/avater.png'></image>
-      <text class='post-like-font'>128</text>
-      <image class='post-like-img' src='../../images/avater.png'></image>
-      <text class='post-like-font'>007</text>
+      <image class='post-like-img' src='{{image.author_img}}'></image>
+      <text class='post-like-font'>{{view_num}}</text>
+      <image class='post-like-img' src='{{image.author_img}}'></image>
+      <text class='post-like-font'>{{collect_num}}</text>
     </view>
   </view>
 
