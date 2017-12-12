@@ -4,7 +4,7 @@
         你好十二月111
         </text>
         <view>
-        <text class="user-content">
+        <text class="user-content" bindtap='tapAction'>
         不再慌废时间
         </text>
         </view>

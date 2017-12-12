@@ -1,7 +1,7 @@
 {
   "pages":[
-    "pages/banner/banner",
-    "pages/welcome/welcome"
+    "pages/welcome/welcome",
+    "pages/banner/banner"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ffffff",

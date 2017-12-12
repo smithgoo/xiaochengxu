@@ -6,6 +6,17 @@ Page({
      console.log("onLoad")
   
   },
+
+  tapAction:function() {
+    console.log("tap")
+    // wx.navigateTo({
+    //   url: '/pages/banner/banner',
+    // })
+    wx.redirectTo({
+      url: '/pages/banner/banner',
+    })
+  },
+
   onReady:function(){
     // 生命周期函数--监听页面初次渲染完成
      console.log("onReady") 
